@@ -1,0 +1,12 @@
+.card{
+    border: 1px solid white;
+    font-weight: bold;
+    color: white;
+}
+select{
+    border: none;
+    font-weight: bold;
+}
+.image{
+height: 35vh;
+}
