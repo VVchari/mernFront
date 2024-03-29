@@ -10,7 +10,7 @@ export default function () {
   const [foodItem, setFoodItem] = useState([])
 
   const loadData = async () => {
-    let response = await fetch("https://mernback-em0b.onrender.com/api/foodData", {
+    let response = await fetch("https://mernback-tvmc.onrender.com/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
