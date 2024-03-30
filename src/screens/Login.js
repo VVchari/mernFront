@@ -6,7 +6,7 @@ const Login=()=>{
   const [credentials,setcredentials]=useState({email:'',password:''})
     const handleSubmit = async (event) => {
         event.preventDefault()
-        const response =await  fetch("https://mernback-em0b.onrender.com/api/login", {
+        const response =await  fetch("https://mernback-c7hd.onrender.com/api/login", {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
