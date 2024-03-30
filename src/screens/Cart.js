@@ -6,7 +6,7 @@ export default function Cart() {
   const handleCheckOut = async () => {
     try {
       let userEmail = localStorage.getItem("userEmail");
-      let response = await fetch("https://mernback-tvmc.onrender.com/api/orderData", {
+      let response = await fetch("https://mernback-c7hd.onrender.com/api/orderData", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
