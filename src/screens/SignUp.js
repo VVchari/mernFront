@@ -7,7 +7,7 @@ export default function SignUp() {
     const [credentials,setcredentials]=useState({name:'',email:'',password:'',geolocation:''})
     const handleSubmit = async (event) => {
         event.preventDefault()
-        const response =await  fetch("https://mernback-tvmc.onrender.com/api/signup", {
+        const response =await  fetch("https://mernback-c7hd.onrender.com/api/signup", {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
