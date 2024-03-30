@@ -6,7 +6,7 @@ export default function MyOrder() {
     const [orderData, setOrderData] = useState("")
     const fetchMyOrder = async () => {
         console.log(localStorage.getItem('userEmail'))
-        await fetch("https://mernback-tvmc.onrender.com/api/myorderData", {
+        await fetch("https://mernback-c7hd.onrender.com/api/myorderData", {
            
             method: 'POST',
             headers: {
